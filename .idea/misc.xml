@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-common/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-config/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-gate/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-api/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-blog-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-blog-parent/kai-blog-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/kai-blog-parent/kai-blog-ui/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

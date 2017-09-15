@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: kai-config
+    cloud:
+        config:
+            server:
+                git:
+                    #AG项目配置
+                    #uri: https://git.oschina.net/geek_qi/AG-Config.git
+
+                    #迁移到sitech参考
+                    uri: https://github.com/xiaozhukai/config.git
+
+server:
+    port: 8750 #服务端口号

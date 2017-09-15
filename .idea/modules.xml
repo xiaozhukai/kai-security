@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kai-admin/kai-admin.iml" filepath="$PROJECT_DIR$/kai-admin/kai-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-api/kai-api.iml" filepath="$PROJECT_DIR$/kai-api/kai-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-blog-parent/kai-blog-admin/kai-blog-admin.iml" filepath="$PROJECT_DIR$/kai-blog-parent/kai-blog-admin/kai-blog-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-blog-parent/kai-blog-parent.iml" filepath="$PROJECT_DIR$/kai-blog-parent/kai-blog-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-blog-parent/kai-blog-ui/kai-blog-ui.iml" filepath="$PROJECT_DIR$/kai-blog-parent/kai-blog-ui/kai-blog-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-common/kai-common.iml" filepath="$PROJECT_DIR$/kai-common/kai-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-config/kai-config.iml" filepath="$PROJECT_DIR$/kai-config/kai-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-eureka/kai-eureka.iml" filepath="$PROJECT_DIR$/kai-eureka/kai-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-gate/kai-gate.iml" filepath="$PROJECT_DIR$/kai-gate/kai-gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-monitor/kai-monitor.iml" filepath="$PROJECT_DIR$/kai-monitor/kai-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-security.iml" filepath="$PROJECT_DIR$/kai-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kai-ui/kai-ui.iml" filepath="$PROJECT_DIR$/kai-ui/kai-ui.iml" />
+    </modules>
+  </component>
+</project>
