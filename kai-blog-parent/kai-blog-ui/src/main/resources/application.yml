@@ -6,7 +6,7 @@ spring:
         cache: false
 
 server:
-    port: 9700
+    port: 8080
 
 #eureka:
 #    instance:

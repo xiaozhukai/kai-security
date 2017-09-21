@@ -1,27 +1,21 @@
 package com.github.kai.security.common.util;
 
-
 import com.github.kai.security.common.vo.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * TODO: 树形结构工具
- *
- * Author: kai
- * CreateDate: 2017/9/6
- * CreateTime: 11:45
+ * Created by Ace on 2017/6/12.
  */
 public class TreeUtil{
   /**
-   * TODO:  两层循环实现建树
-   *
-   * Author: kai
-   * CreateDate: 2017/9/6
-   * CreateTime: 11:45
+   * 两层循环实现建树
+   * 
+   * @param treeNodes 传入的树节点列表
+   * @return
    */
-  public static <T extends TreeNode> List<T> bulid(List<T> treeNodes, Object root) {
+  public static <T extends TreeNode> List<T> bulid(List<T> treeNodes,Object root) {
 
     List<T> trees = new ArrayList<T>();
 
@@ -44,11 +38,10 @@ public class TreeUtil{
   }
 
   /**
-   * TODO: 使用递归方法建树
-   *
-   * Author: kai
-   * CreateDate: 2017/9/6
-   * CreateTime: 11:45
+   * 使用递归方法建树
+   * 
+   * @param treeNodes
+   * @return
    */
   public static <T extends TreeNode> List<T> buildByRecursive(List<T> treeNodes,Object root) {
     List<T> trees = new ArrayList<T>();
@@ -60,13 +53,12 @@ public class TreeUtil{
     return trees;
   }
 
- /**
-  * TODO: 递归查找子节点
-  *
-  * Author: kai
-  * CreateDate: 2017/9/6
-  * CreateTime: 11:45
-  */
+  /**
+   * 递归查找子节点
+   * 
+   * @param treeNodes
+   * @return
+   */
   public static <T extends TreeNode> T findChildren(T treeNode, List<T> treeNodes) {
     for (T it : treeNodes) {
       if (treeNode.getId() == it.getParentId()) {

@@ -1,7 +1,7 @@
 package com.github.kai.security.common.bean;
 
 /**
- * TODO:  公用页数工具
+ * TODO:  公用页数工具(废除)
  *
  * Author: kai
  * CreateDate: 2017/9/4

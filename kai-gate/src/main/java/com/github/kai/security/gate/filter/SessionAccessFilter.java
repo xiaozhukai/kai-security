@@ -54,6 +54,7 @@ public class SessionAccessFilter extends ZuulFilter{
     @Value("${gate.oauth.prefix}")
     private String oauthPrefix;
 
+
     /**
      * TODO: 调用zuul网关
      *
@@ -120,7 +121,7 @@ public class SessionAccessFilter extends ZuulFilter{
          * @param method
          */
     private void checkAllow(final String requestUri, final String method ,RequestContext ctx,String username) {
-        log.debug("uri：" + requestUri + "----method：" + method);
+//        log.debug("uri：" + requestUri + "----method：" + method);
         List<PermissionInfo> permissionInfos = getPermissionInfos(ctx.getRequest(), username) ;
         Collection<PermissionInfo> result = getPermissionInfos(requestUri, method, permissionInfos);
         if (result.size() <= 0) {

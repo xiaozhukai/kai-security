@@ -41,4 +41,8 @@ public class HomeController {
         return "timeline";
     }
 
+    @RequestMapping("/QQ")
+    public String QQ(){
+        return "QQ";
+    }
 }

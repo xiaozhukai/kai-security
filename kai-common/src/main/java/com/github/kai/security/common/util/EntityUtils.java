@@ -37,7 +37,7 @@ public class EntityUtils {
 	 * @author 王浩彬
 	 */
 	public static <T> void setCreateInfo(T entity){
-		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+		HttpServletRequest request = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
 		String hostIp = "";
 		String name = "";
 		String id = "";
@@ -66,7 +66,7 @@ public class EntityUtils {
 	 * @author 王浩彬
 	 */
 	public static <T> void setUpdatedInfo(T entity){
-		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+		HttpServletRequest request = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
 		String hostIp = "";
 		String name = "";
 		String id = "";
